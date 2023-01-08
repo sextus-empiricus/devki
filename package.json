@@ -1,0 +1,20 @@
+{
+  "name": "devki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./playground.ts --watch",
+    "generate": "ts-node ./src/generateDaily.ts",
+    "save": "ts-node ./src/saveDaily.ts",
+    "test": "jest ./daily"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1",
+    "prettier": "^2.8.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
